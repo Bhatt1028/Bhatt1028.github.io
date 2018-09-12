@@ -1,0 +1,25 @@
+/*
+ryuewbovgiawnh code comment
+rshrehbrtfh
+bleh
+blah
+*/
+ body
+ {
+/*background-color: #00FFAB; */
+background-image: url(img/scene.PNG);
+background-repeat: no-repeat;
+background-size:cover;
+ }
+#textEnhance
+{
+color: springgreen;
+background-image:none;
+    background-image: linear-gradient(blueviolet , green);
+
+}
+h4
+{
+    color:azure;
+
+}
