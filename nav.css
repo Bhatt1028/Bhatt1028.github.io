@@ -1,0 +1,37 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 14px 25px;
+    overflow: hidden;
+    background-color: #EEEEEE;
+    text-align: left;
+}
+li {
+    display: inline;
+    border: 1px #00FF98;
+    font-family: "Lucida Sans Unicode", Times, serif;
+}
+
+li .active {
+    background-color: #4CAF50;
+}
+a:link {
+    text-decoration: none;
+    color: #005577
+}
+
+a:visited {
+    text-decoration: none;
+    color: #005577
+}
+
+a:hover {
+    text-decoration: none;
+    color: #009678
+}
+
+a:active {
+    text-decoration: none;
+    color: springgreen;
+}
+/* thanks to w3schools.com for the code examples*/

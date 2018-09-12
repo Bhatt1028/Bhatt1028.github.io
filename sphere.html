@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="nav.css">
+<link rel="stylesheet" href="dome.css">
+<head>
+    <meta charset="UTF-8">
+    <title>Marbles are cool</title>
+</head>
+<body>
+<ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="garden.html">Gnome</a></li>
+    <li><a href="sphere.html">Dome</a></li>
+    <li><a href="notgreece.html">Rome</a></li>
+    <li><a href="timewaster.html">Chrome</a></li>
+    <li><a href="book.html">Tome</a></li>
+</ul>
+
+<p id="demo"></p>
+
+<script>
+    // Set the date we're counting down to
+    let countDownDate = new Date("Dec 7, 2018 15:37:25").getTime();
+
+    // Update the count down every 1 second
+    let x = setInterval(function() {
+
+        // Get todays date and time
+        let now = new Date().getTime();
+
+        // Find the distance between now and the count down date
+        let distance = countDownDate - now;
+
+        // Time calculations for days, hours, minutes and seconds
+        let days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        let seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        // Output the result in an element with id="demo"
+        document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+            + minutes + "m " + seconds + "s ";
+
+        // If the count down is over, write some text
+        if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("demo").innerHTML = "EXPIRED";
+        }
+    }, 1000);
+</script>
+
+
+
+</body>
+</html>
