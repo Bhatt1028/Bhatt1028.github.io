@@ -1,4 +1,4 @@
-ul {
+ ul {
     list-style-type: none;
     margin: 0;
     padding: 14px 25px;
@@ -34,4 +34,10 @@ a:active {
     text-decoration: none;
     color: springgreen;
 }
-/* thanks to w3schools.com for the code examples*/
+ body
+ {
+     background-color: #ddb8ae;
+
+
+ }
+/* thanks to w3schools.com for the code examples that were used throughout this project*/
