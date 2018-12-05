@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz</title>
+    <script src="fun.js"></script>
+    <link rel="stylesheet" href="nav.css">
+</head>
+<body>
+<ul>
+    <li><a href="index.html"> Home </a></li>
+    <li><a href="garden.html"> Gnome </a></li>
+    <li><a href="sphere.html"> Dome </a></li>
+    <li><a href="notgreece.html"> Rome </a></li>
+    <li><a href="timewaster.html"> Chrome </a></li>
+    <li><a href="book.html"> Tome </a></li>
+    <li><a href="quiz.html"> Quiz </a></li>
+</ul>
+<form name="quiz">
+    <img src="img/beedle.png">
+    <br><br>
+    Question 1: Who is this guy?<br>
+    <input type="text" name="a1">
+    <br><br>
+    Question 2: What games has he appeared in? (Check all that apply) <br>
+    <input type="checkbox" name="a2A" value="ph">The Legend of Zelda: Phantom Hourglass<br>
+    <input type="checkbox" name="a2B" value="ss">The Legend of Zelda: Skyward Sword<br>
+    <input type="checkbox" name="a2C" value="botw">The Legend of Zelda: Breath of the Wild<br>
+    <input type="checkbox" name="a2D" value="ww">The Legend of Zelda: Wind Waker<br>
+    <input type="checkbox" name="a2E" value="lttp">The Legend of Zelda: A Link to the Past<br>
+    <input type="checkbox" name="a2F" value="st">The Legend of Zelda: Spirit Tracks<br>
+    <br><br>
+    Question 3: What is his profession? <br>
+    <input type="radio" name="a3" value="col">Collector<br>
+    <input type="radio" name="a3" value="ds">Delivery Service<br>
+    <input type="radio" name="a3" value="mer">Merchant<br>
+    <input type="radio" name="a3" value="sped">Being everywhere faster than you<br>
+    <br><br>
+    Question 4: In the game that took place in the beginning of the Zelda timeline, what his favorite kind of animal? <br>
+    <input type="radio" name="a4" value="deku">The Deku Scrub<br>
+    <input type="radio" name="a4" value="mob">The Moblin<br>
+    <input type="radio" name="a4" value="hc">The Horned Colossus<br>
+    <input type="radio" name="a4" value="ks">The Keese<br>
+    <input type="radio" name="a4" value="ld">The legendary dragon from the Akkala region<br>
+    <br><br>
+    Question 5: Who is his most prominent customer?<br>
+    <input type="text" name="a5">
+    <br><br>
+    Question 6: What were the items you could get from him in the latest Zelda game? (Check all that apply) <br>
+    <input type="checkbox" name="a6A" value="a">Arrows<br>
+    <input type="checkbox" name="a6B" value="b">Bombs<br>
+    <input type="checkbox" name="a6C" value="i">Insects<br>
+    <input type="checkbox" name="a6D" value="p">Potions<br>
+    <input type="checkbox" name="a6E" value="w">Weapons<br>
+    <br><br>
+    <button type="button" onclick="checkAnswers()">CHECK EM</button>
+
+
+</form>
+</body>
+</html>
